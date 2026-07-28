@@ -1,9 +1,8 @@
-# IQ Archive FR v1.4
+# Changelog
 
-- Navigation inférieure optimisée pour iPhone.
-- Recherche globale (jeu, taille, numéro et fichier source).
-- Filtres repliables sur mobile.
-- Affichage cartes ou liste.
-- Filtres actifs visibles sous forme de pastilles.
-- Saisie temporisée pour améliorer la fluidité sur la base complète.
-- PWA et cache hors ligne mis à jour.
+## 2.0.0 — Foundation
+- Base découpée par jeu et format.
+- Chargement à la demande optimisé pour iPhone.
+- Nouvelle navigation mobile.
+- Favoris, partage et liens directs.
+- PWA et mode hors ligne.

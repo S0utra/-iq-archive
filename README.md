@@ -1,3 +1,3 @@
-IQ Archive FR v1.4
+# IQ Archive 2.0 — Foundation
 
-Application web statique optimisée pour iPhone et Cloudflare Workers Assets. Téléverser tous les fichiers à la racine.
+Application PWA mobile-first. Tous les fichiers doivent être placés à la racine du dépôt GitHub.
