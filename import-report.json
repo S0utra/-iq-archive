@@ -1,0 +1,619 @@
+{
+  "meta": {
+    "version": "0.1",
+    "source_html_files": 73,
+    "records": 27989,
+    "issues": 0,
+    "games": {
+      "I.Q. Final / Kurushi Final": {
+        "puzzles": 9420,
+        "mazes": 0,
+        "sizes": {
+          "4×2": 400,
+          "4×3": 400,
+          "4×4": 400,
+          "4×5": 600,
+          "4×6": 600,
+          "5×5": 600,
+          "5×6": 600,
+          "5×7": 600,
+          "5×8": 500,
+          "6×6": 600,
+          "6×7": 600,
+          "6×8": 600,
+          "6×9": 500,
+          "7×7": 600,
+          "7×8": 600,
+          "7×9": 600,
+          "7×10": 200,
+          "8×9": 200,
+          "8×10": 200,
+          "9×10": 20
+        },
+        "solutions": 0
+      },
+      "I.Q. Mania": {
+        "puzzles": 9679,
+        "mazes": 0,
+        "sizes": {
+          "4×2": 400,
+          "4×3": 400,
+          "4×4": 400,
+          "4×5": 600,
+          "4×6": 600,
+          "5×5": 610,
+          "5×6": 610,
+          "5×7": 608,
+          "5×8": 525,
+          "6×6": 616,
+          "6×7": 613,
+          "6×8": 611,
+          "6×9": 513,
+          "7×7": 611,
+          "7×8": 608,
+          "7×9": 607,
+          "7×10": 212,
+          "8×9": 202,
+          "8×10": 209,
+          "9×10": 124
+        },
+        "solutions": 0
+      },
+      "I.Q. Remix+": {
+        "puzzles": 5485,
+        "mazes": 5,
+        "sizes": {
+          "6×9": 514,
+          "5×5": 610,
+          "5×6": 610,
+          "5×7": 605,
+          "5×8": 522,
+          "6×6": 612,
+          "6×7": 608,
+          "6×8": 606,
+          "7×7": 607,
+          "8×9": 196
+        },
+        "solutions": 0
+      },
+      "Intelligent Qube / Kurushi": {
+        "puzzles": 3400,
+        "mazes": 0,
+        "sizes": {
+          "4×2": 200,
+          "4×3": 200,
+          "4×4": 200,
+          "4×5": 200,
+          "4×6": 200,
+          "5×4": 200,
+          "5×5": 200,
+          "5×6": 200,
+          "5×7": 200,
+          "5×8": 200,
+          "6×6": 200,
+          "6×7": 200,
+          "6×8": 200,
+          "6×9": 200,
+          "7×7": 200,
+          "7×8": 200,
+          "7×9": 200
+        },
+        "solutions": 3366
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "4x2(1).html",
+      "status": "parsed",
+      "game": "I.Q. Mania",
+      "size": "4×2",
+      "items_seen": 400
+    },
+    {
+      "file": "4x2(2).html",
+      "status": "parsed",
+      "game": "Intelligent Qube / Kurushi",
+      "size": "4×2",
+      "items_seen": 200
+    },
+    {
+      "file": "4x2.html",
+      "status": "parsed",
+      "game": "I.Q. Final / Kurushi Final",
+      "size": "4×2",
+      "items_seen": 400
+    },
+    {
+      "file": "4x3(1).html",
+      "status": "parsed",
+      "game": "I.Q. Mania",
+      "size": "4×3",
+      "items_seen": 400
+    },
+    {
+      "file": "4x3(2).html",
+      "status": "parsed",
+      "game": "Intelligent Qube / Kurushi",
+      "size": "4×3",
+      "items_seen": 200
+    },
+    {
+      "file": "4x3.html",
+      "status": "parsed",
+      "game": "I.Q. Final / Kurushi Final",
+      "size": "4×3",
+      "items_seen": 400
+    },
+    {
+      "file": "4x4(1).html",
+      "status": "parsed",
+      "game": "I.Q. Mania",
+      "size": "4×4",
+      "items_seen": 400
+    },
+    {
+      "file": "4x4(2).html",
+      "status": "parsed",
+      "game": "Intelligent Qube / Kurushi",
+      "size": "4×4",
+      "items_seen": 200
+    },
+    {
+      "file": "4x4.html",
+      "status": "parsed",
+      "game": "I.Q. Final / Kurushi Final",
+      "size": "4×4",
+      "items_seen": 400
+    },
+    {
+      "file": "4x5(1).html",
+      "status": "parsed",
+      "game": "I.Q. Mania",
+      "size": "4×5",
+      "items_seen": 600
+    },
+    {
+      "file": "4x5(2).html",
+      "status": "parsed",
+      "game": "Intelligent Qube / Kurushi",
+      "size": "4×5",
+      "items_seen": 200
+    },
+    {
+      "file": "4x5.html",
+      "status": "parsed",
+      "game": "I.Q. Final / Kurushi Final",
+      "size": "4×5",
+      "items_seen": 600
+    },
+    {
+      "file": "4x6(1).html",
+      "status": "parsed",
+      "game": "I.Q. Mania",
+      "size": "4×6",
+      "items_seen": 600
+    },
+    {
+      "file": "4x6(2).html",
+      "status": "parsed",
+      "game": "Intelligent Qube / Kurushi",
+      "size": "4×6",
+      "items_seen": 200
+    },
+    {
+      "file": "4x6.html",
+      "status": "parsed",
+      "game": "I.Q. Final / Kurushi Final",
+      "size": "4×6",
+      "items_seen": 600
+    },
+    {
+      "file": "5x4.html",
+      "status": "parsed",
+      "game": "Intelligent Qube / Kurushi",
+      "size": "5×4",
+      "items_seen": 200
+    },
+    {
+      "file": "5x5(1).html",
+      "status": "parsed",
+      "game": "I.Q. Mania",
+      "size": "5×5",
+      "items_seen": 610
+    },
+    {
+      "file": "5x5(2).html",
+      "status": "parsed",
+      "game": "Intelligent Qube / Kurushi",
+      "size": "5×5",
+      "items_seen": 200
+    },
+    {
+      "file": "5x5(3).html",
+      "status": "parsed",
+      "game": "I.Q. Remix+",
+      "size": "5×5",
+      "items_seen": 610
+    },
+    {
+      "file": "5x5.html",
+      "status": "parsed",
+      "game": "I.Q. Final / Kurushi Final",
+      "size": "5×5",
+      "items_seen": 600
+    },
+    {
+      "file": "5x6(1).html",
+      "status": "parsed",
+      "game": "I.Q. Mania",
+      "size": "5×6",
+      "items_seen": 610
+    },
+    {
+      "file": "5x6(2).html",
+      "status": "parsed",
+      "game": "Intelligent Qube / Kurushi",
+      "size": "5×6",
+      "items_seen": 200
+    },
+    {
+      "file": "5x6(4).html",
+      "status": "parsed",
+      "game": "I.Q. Remix+",
+      "size": "5×6",
+      "items_seen": 610
+    },
+    {
+      "file": "5x6.html",
+      "status": "parsed",
+      "game": "I.Q. Final / Kurushi Final",
+      "size": "5×6",
+      "items_seen": 600
+    },
+    {
+      "file": "5x7(1).html",
+      "status": "parsed",
+      "game": "I.Q. Mania",
+      "size": "5×7",
+      "items_seen": 608
+    },
+    {
+      "file": "5x7(2).html",
+      "status": "parsed",
+      "game": "Intelligent Qube / Kurushi",
+      "size": "5×7",
+      "items_seen": 200
+    },
+    {
+      "file": "5x7(4).html",
+      "status": "parsed",
+      "game": "I.Q. Remix+",
+      "size": "5×7",
+      "items_seen": 605
+    },
+    {
+      "file": "5x7.html",
+      "status": "parsed",
+      "game": "I.Q. Final / Kurushi Final",
+      "size": "5×7",
+      "items_seen": 600
+    },
+    {
+      "file": "5x8(1).html",
+      "status": "parsed",
+      "game": "I.Q. Mania",
+      "size": "5×8",
+      "items_seen": 525
+    },
+    {
+      "file": "5x8(2).html",
+      "status": "parsed",
+      "game": "I.Q. Mania",
+      "size": "5×8",
+      "items_seen": 525
+    },
+    {
+      "file": "5x8(3).html",
+      "status": "parsed",
+      "game": "Intelligent Qube / Kurushi",
+      "size": "5×8",
+      "items_seen": 200
+    },
+    {
+      "file": "5x8(4).html",
+      "status": "parsed",
+      "game": "I.Q. Remix+",
+      "size": "5×8",
+      "items_seen": 522
+    },
+    {
+      "file": "5x8.html",
+      "status": "parsed",
+      "game": "I.Q. Final / Kurushi Final",
+      "size": "5×8",
+      "items_seen": 500
+    },
+    {
+      "file": "6x6(1).html",
+      "status": "parsed",
+      "game": "I.Q. Mania",
+      "size": "6×6",
+      "items_seen": 616
+    },
+    {
+      "file": "6x6(2).html",
+      "status": "parsed",
+      "game": "Intelligent Qube / Kurushi",
+      "size": "6×6",
+      "items_seen": 200
+    },
+    {
+      "file": "6x6(4).html",
+      "status": "parsed",
+      "game": "I.Q. Remix+",
+      "size": "6×6",
+      "items_seen": 612
+    },
+    {
+      "file": "6x6.html",
+      "status": "parsed",
+      "game": "I.Q. Final / Kurushi Final",
+      "size": "6×6",
+      "items_seen": 600
+    },
+    {
+      "file": "6x7(1).html",
+      "status": "parsed",
+      "game": "I.Q. Final / Kurushi Final",
+      "size": "6×7",
+      "items_seen": 600
+    },
+    {
+      "file": "6x7(2).html",
+      "status": "parsed",
+      "game": "I.Q. Mania",
+      "size": "6×7",
+      "items_seen": 613
+    },
+    {
+      "file": "6x7(3).html",
+      "status": "parsed",
+      "game": "Intelligent Qube / Kurushi",
+      "size": "6×7",
+      "items_seen": 200
+    },
+    {
+      "file": "6x7(5).html",
+      "status": "parsed",
+      "game": "I.Q. Remix+",
+      "size": "6×7",
+      "items_seen": 608
+    },
+    {
+      "file": "6x8(1).html",
+      "status": "parsed",
+      "game": "I.Q. Final / Kurushi Final",
+      "size": "6×8",
+      "items_seen": 600
+    },
+    {
+      "file": "6x8(2).html",
+      "status": "parsed",
+      "game": "I.Q. Mania",
+      "size": "6×8",
+      "items_seen": 611
+    },
+    {
+      "file": "6x8(3).html",
+      "status": "parsed",
+      "game": "Intelligent Qube / Kurushi",
+      "size": "6×8",
+      "items_seen": 200
+    },
+    {
+      "file": "6x8(5).html",
+      "status": "parsed",
+      "game": "I.Q. Remix+",
+      "size": "6×8",
+      "items_seen": 606
+    },
+    {
+      "file": "6x9(1).html",
+      "status": "parsed",
+      "game": "I.Q. Final / Kurushi Final",
+      "size": "6×9",
+      "items_seen": 500
+    },
+    {
+      "file": "6x9(2).html",
+      "status": "parsed",
+      "game": "I.Q. Mania",
+      "size": "6×9",
+      "items_seen": 513
+    },
+    {
+      "file": "6x9(3).html",
+      "status": "parsed",
+      "game": "Intelligent Qube / Kurushi",
+      "size": "6×9",
+      "items_seen": 200
+    },
+    {
+      "file": "6x9(5).html",
+      "status": "parsed",
+      "game": "I.Q. Remix+",
+      "size": "6×9",
+      "items_seen": 509
+    },
+    {
+      "file": "7x10(2).html",
+      "status": "parsed",
+      "game": "I.Q. Final / Kurushi Final",
+      "size": "7×10",
+      "items_seen": 200
+    },
+    {
+      "file": "7x10(3).html",
+      "status": "parsed",
+      "game": "I.Q. Mania",
+      "size": "7×10",
+      "items_seen": 212
+    },
+    {
+      "file": "7x7(1).html",
+      "status": "parsed",
+      "game": "I.Q. Final / Kurushi Final",
+      "size": "7×7",
+      "items_seen": 600
+    },
+    {
+      "file": "7x7(2).html",
+      "status": "parsed",
+      "game": "I.Q. Mania",
+      "size": "7×7",
+      "items_seen": 611
+    },
+    {
+      "file": "7x7(3).html",
+      "status": "parsed",
+      "game": "Intelligent Qube / Kurushi",
+      "size": "7×7",
+      "items_seen": 200
+    },
+    {
+      "file": "7x7(5).html",
+      "status": "parsed",
+      "game": "I.Q. Remix+",
+      "size": "7×7",
+      "items_seen": 607
+    },
+    {
+      "file": "7x8(1).html",
+      "status": "parsed",
+      "game": "I.Q. Final / Kurushi Final",
+      "size": "7×8",
+      "items_seen": 600
+    },
+    {
+      "file": "7x8(2).html",
+      "status": "parsed",
+      "game": "I.Q. Mania",
+      "size": "7×8",
+      "items_seen": 608
+    },
+    {
+      "file": "7x8(3).html",
+      "status": "parsed",
+      "game": "Intelligent Qube / Kurushi",
+      "size": "7×8",
+      "items_seen": 200
+    },
+    {
+      "file": "7x9(2).html",
+      "status": "parsed",
+      "game": "I.Q. Final / Kurushi Final",
+      "size": "7×9",
+      "items_seen": 600
+    },
+    {
+      "file": "7x9(3).html",
+      "status": "parsed",
+      "game": "I.Q. Mania",
+      "size": "7×9",
+      "items_seen": 607
+    },
+    {
+      "file": "7x9(4).html",
+      "status": "parsed",
+      "game": "Intelligent Qube / Kurushi",
+      "size": "7×9",
+      "items_seen": 200
+    },
+    {
+      "file": "8x10(2).html",
+      "status": "parsed",
+      "game": "I.Q. Final / Kurushi Final",
+      "size": "8×10",
+      "items_seen": 200
+    },
+    {
+      "file": "8x10(3).html",
+      "status": "parsed",
+      "game": "I.Q. Mania",
+      "size": "8×10",
+      "items_seen": 209
+    },
+    {
+      "file": "8x9(2).html",
+      "status": "parsed",
+      "game": "I.Q. Final / Kurushi Final",
+      "size": "8×9",
+      "items_seen": 200
+    },
+    {
+      "file": "8x9(3).html",
+      "status": "parsed",
+      "game": "I.Q. Mania",
+      "size": "8×9",
+      "items_seen": 202
+    },
+    {
+      "file": "8x9(4).html",
+      "status": "parsed",
+      "game": "I.Q. Remix+",
+      "size": "8×9",
+      "items_seen": 196
+    },
+    {
+      "file": "9x10(1).html",
+      "status": "parsed",
+      "game": "I.Q. Final / Kurushi Final",
+      "size": "9×10",
+      "items_seen": 20
+    },
+    {
+      "file": "9x10(2).html",
+      "status": "parsed",
+      "game": "I.Q. Mania",
+      "size": "9×10",
+      "items_seen": 124
+    },
+    {
+      "file": "index(1).html",
+      "status": "parsed",
+      "game": "Intelligent Qube / Kurushi",
+      "size": null,
+      "items_seen": 0
+    },
+    {
+      "file": "index(3).html",
+      "status": "parsed",
+      "game": "I.Q. Final / Kurushi Final",
+      "size": null,
+      "items_seen": 0
+    },
+    {
+      "file": "index(4).html",
+      "status": "parsed",
+      "game": "I.Q. Mania",
+      "size": null,
+      "items_seen": 0
+    },
+    {
+      "file": "index(5).html",
+      "status": "parsed",
+      "game": "Intelligent Qube / Kurushi",
+      "size": null,
+      "items_seen": 0
+    },
+    {
+      "file": "maze6x9(1).html",
+      "status": "parsed",
+      "game": "I.Q. Remix+",
+      "size": "6×9",
+      "items_seen": 5
+    }
+  ],
+  "issues": []
+}

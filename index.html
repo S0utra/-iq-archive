@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#050812">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="IQ Archive">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-192.png">
+<title>IQ Archive FR v1.4</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="noise"></div>
+<header class="topbar">
+  <button class="brand" id="homeBtn" aria-label="Accueil">
+    <span class="logoCube"></span><span><b>IQ</b><small>ARCHIVE <em>v1.4</em></small></span>
+  </button>
+  <div class="topActions">
+    <button class="iconBtn" id="searchBtn" aria-label="Rechercher">⌕</button>
+    <button class="iconBtn" id="statsBtn" aria-label="Statistiques">▥</button>
+    <button class="iconBtn" id="infoBtn" aria-label="À propos">i</button>
+  </div>
+</header>
+
+<main>
+<section id="homeView" class="view active">
+  <div class="hero">
+    <p class="kicker">ARCHIVES INTERACTIVES • SÉRIE I.Q. / KURUSHI</p>
+    <h1>Le puzzle parfait.<br><span>Retrouvé.</span></h1>
+    <p class="lead">Explore les grilles, compare les versions et retrouve rapidement un puzzle parmi toute la collection actuellement importée.</p>
+    <div id="heroStats" class="heroStats"></div>
+  </div>
+  <div class="sectionHead"><div><p class="kicker">COLLECTION</p><h2>Choisis un jeu</h2></div></div>
+  <div id="gameCards" class="gameCards"></div>
+  <div class="sectionHead compact"><div><p class="kicker">ACCÈS RAPIDE</p><h2>Continuer l’exploration</h2></div></div>
+  <div class="quickGrid">
+    <button class="quickCard" data-quick="solutions"><span>◎</span><b>Solutions disponibles</b><small>Intelligent Qube / Kurushi</small></button>
+    <button class="quickCard" data-quick="hard"><span>△</span><b>Puzzles difficiles</b><small>TRN ≥ 15</small></button>
+    <button class="quickCard" data-quick="mazes"><span>▦</span><b>Forbidden Mazes</b><small>I.Q. Remix+</small></button>
+    <button class="quickCard" data-quick="random"><span>◇</span><b>Puzzle aléatoire</b><small>Découverte instantanée</small></button>
+    <button class="quickCard" data-quick="favorites"><span>☆</span><b>Mes favoris</b><small>Conservés sur cet appareil</small></button>
+    <button class="quickCard" data-quick="history"><span>↺</span><b>Historique récent</b><small>Les 30 dernières fiches</small></button>
+  </div>
+</section>
+
+<section id="exploreView" class="view">
+  <div class="exploreHero">
+    <button class="backBtn" id="backBtn">‹ Accueil</button>
+    <p class="kicker" id="exploreKicker">EXPLORATEUR</p>
+    <h1 id="exploreTitle">Tous les puzzles</h1>
+    <p id="exploreSubtitle" class="lead"></p>
+  </div>
+  <div class="filterHeader"><button id="toggleFilters" class="filterToggle">☷ Filtres</button><button id="viewToggle" class="filterToggle">▦ Cartes</button></div>
+  <div class="filters" id="filters">
+    <label class="wide"><span>Recherche rapide</span><input id="query" type="search" placeholder="Jeu, taille, puzzle, fichier source…"></label>
+    <label><span>Jeu</span><select id="game"></select></label>
+    <label><span>Type</span><select id="category"><option value="">Tous</option><option value="puzzle">Puzzles</option><option value="maze">Mazes</option></select></label>
+    <label><span>Taille</span><select id="size"><option value="">Toutes</option></select></label>
+    <label><span>N°</span><input id="number" type="number" min="1" placeholder="42"></label>
+    <label><span>TRN min.</span><input id="trnMin" type="number" min="0" placeholder="0"></label>
+    <label><span>TRN max.</span><input id="trnMax" type="number" min="0" placeholder="20"></label>
+    <label class="wide"><span>Suite de cubes</span><input id="pattern" placeholder="Ex. 2 2 1 2"></label>
+    <label><span>Solution</span><select id="solution"><option value="">Toutes</option><option value="yes">Disponible</option><option value="no">Absente</option></select></label>
+    <label><span>Tri</span><select id="sort"><option value="default">Ordre source</option><option value="trn-desc">TRN décroissant</option><option value="trn-asc">TRN croissant</option><option value="size">Taille</option></select></label>
+    <button id="reset" class="resetBtn">Réinitialiser</button>
+  </div>
+  <div id="activeFilters" class="activeFilters"></div>
+  <div class="resultsBar"><div><b id="resultCount"></b><span> résultats</span></div><div class="pager"><button id="prev">‹</button><span id="pageInfo"></span><button id="next">›</button></div></div>
+  <div id="cards" class="cards"></div>
+</section>
+</main>
+<nav class="bottomNav" aria-label="Navigation principale">
+  <button data-nav-main="home" class="active"><span>⌂</span><small>Accueil</small></button>
+  <button data-nav-main="explore"><span>⌕</span><small>Explorer</small></button>
+  <button data-nav-main="random"><span>◇</span><small>Aléatoire</small></button>
+  <button data-nav-main="favorites"><span>☆</span><small>Favoris</small></button>
+  <button data-nav-main="stats"><span>▥</span><small>Stats</small></button>
+</nav>
+
+<dialog id="detail">
+  <div class="sheetHandle"></div>
+  <button class="close" aria-label="Fermer">×</button>
+  <div id="detailBody"></div>
+</dialog>
+
+<dialog id="stats">
+  <div class="sheetHandle"></div><button class="closeStats">×</button>
+  <p class="kicker">TABLEAU DE BORD</p><h2>Statistiques de l’archive</h2>
+  <div id="statsBody"></div>
+</dialog>
+
+<dialog id="about">
+  <div class="sheetHandle"></div><button class="closeAbout">×</button>
+  <p class="kicker">À PROPOS</p><h2>IQ Archive FR</h2>
+  <p>Une archive hors ligne consacrée à <i>Intelligent Qube / Kurushi</i>, <i>I.Q. Remix+</i>, <i>I.Q. Final</i> et <i>I.Q. Mania</i>.</p>
+  <p class="muted">La v1.4 apporte une navigation mobile complète, une recherche globale, des filtres repliables et un affichage liste/cartes. La fiche en véritable carte d’identité : navigation précédent/suivant, partage, lien direct et lecture détaillée de la composition de la grille.</p>
+</dialog>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+<script>if('serviceWorker' in navigator && location.protocol.startsWith('http')){addEventListener('load',()=>navigator.serviceWorker.register('./sw.js'));}</script>
+</body></html>
